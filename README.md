@@ -27,7 +27,8 @@ Here is My assigned Ticket, seating in my Investigation Channel; ready to be inv
 
 ---
 
-Play Book Opens
+### Play Book Opens
+
 (Which is used to begin the guided incident response investigation for this specific SOC141 - Phishing URL Detected alert.)
 
 <img width="1916" height="597" alt="image" src="https://github.com/user-attachments/assets/a812e8b5-5c8c-4df2-8796-4f6802a8a1d6" />
@@ -103,3 +104,28 @@ Major cyber security vendors have reached a clear consensus regarding this link:
 • Targeted Phishing Parameter: The URL ends with ?email=ellie@letsdefend.io. This structure is typically used in credential harvesting setups. It pre-fills a targeted victim's email address onto a fake login screen to make the phishing page look more convincing.
 
 ---
+
+<img width="946" height="590" alt="image" src="https://github.com/user-attachments/assets/05eeb9e7-cf94-4035-a71d-aa7ba3df8503" />
+
+* Click **Accessed**
+
+**Destination Address Filter:**
+<img width="1917" height="637" alt="image" src="https://github.com/user-attachments/assets/68e324b3-1b90-465f-b0a1-b78538898943" />
+
+**Requested Url:** http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io
+<img width="1899" height="653" alt="image" src="https://github.com/user-attachments/assets/8c97aa33-9082-4544-87ff-1e9e06134463" />
+
+**Domain**
+<img width="1912" height="634" alt="image" src="https://github.com/user-attachments/assets/26c265ac-4f74-4eea-b5dd-6796ee806569" />
+
+### Accessed Device Details:
+
+* When was it accessed:                  2021-03-22 18:23:54
+* What is the source address:            172.16.17.49
+* What is the destination address:       91.189.114.8
+* Which user tried to access:            ellie (Hostname: EmilyComp)
+* What is User Agent:                    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36                   
+* Is the request blocked:                Allowed
+
+---
+
