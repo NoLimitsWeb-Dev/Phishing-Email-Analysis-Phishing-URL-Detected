@@ -140,3 +140,39 @@ Major cyber security vendors have reached a clear consensus regarding this link:
 
 ---
 
+### Artifact
+* Value:    http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io
+* Comment:  Attacker Malicious Url use for phishing
+• Type:     URL
+
+<img width="1000" height="493" alt="image" src="https://github.com/user-attachments/assets/c0760aec-d703-4c34-8184-04fe8000ea41" />
+
+---
+
+### Anayst Notes:
+```
+The alert is confirmed as a True Positive. Log analysis verified that the internal host EmilyComp (172.16.17.49) successfully initiated an outbound HTTP connection to the malicious domain mogagrocol.ru (91.189.114.8). The URL featured a targeted credential harvesting parameter string tailored to user 'Emily'.
+
+The firewall action was 'Allowed', indicating successful user interaction with the phishing landing page. To minimize immediate risk, the endpoint has been successfully contained and isolated.
+
+Recommend initiating an immediate password reset for the affected user account.
+```
+
+<img width="987" height="525" alt="image" src="https://github.com/user-attachments/assets/e1bf7d92-c119-4386-bf3a-c9dee2dbcbda" />
+
+---
+
+<img width="980" height="445" alt="image" src="https://github.com/user-attachments/assets/323336bc-0b37-4ed2-92f5-60fa34a14e55" />
+
+### Click Confirm & Close
+To officially submit and close out this case (Ticket)
+
+<img width="727" height="566" alt="image" src="https://github.com/user-attachments/assets/1a3a2ff3-af85-4839-beff-385111ddd1a3" />
+
+---
+
+## Final Result
+
+<img width="1904" height="831" alt="image" src="https://github.com/user-attachments/assets/d124eb6e-cc8d-403a-9b95-f64dd3de92f7" />
+
+---
