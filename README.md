@@ -109,13 +109,13 @@ Major cyber security vendors have reached a clear consensus regarding this link:
 
 * Click **Accessed**
 
-**Destination Address Filter:**
+**Destination IP Address Filter:** ```91.189.114.8```
 <img width="1917" height="637" alt="image" src="https://github.com/user-attachments/assets/68e324b3-1b90-465f-b0a1-b78538898943" />
 
 **Requested Url:** http://mogagrocol.ru/wp-content/plugins/akismet/fv/index.php?email=ellie@letsdefend.io
 <img width="1899" height="653" alt="image" src="https://github.com/user-attachments/assets/8c97aa33-9082-4544-87ff-1e9e06134463" />
 
-**Domain**
+**Domain** ```mogagrocol.ru```
 <img width="1912" height="634" alt="image" src="https://github.com/user-attachments/assets/26c265ac-4f74-4eea-b5dd-6796ee806569" />
 
 ### Accessed Device Details:
@@ -123,9 +123,20 @@ Major cyber security vendors have reached a clear consensus regarding this link:
 * When was it accessed:                  2021-03-22 18:23:54
 * What is the source address:            172.16.17.49
 * What is the destination address:       91.189.114.8
-* Which user tried to access:            ellie (Hostname: EmilyComp)
+* Which user tried to access:            Emily (Hostname: EmilyComp)
 * What is User Agent:                    Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36                   
 * Is the request blocked:                Allowed
+
+---
+
+<img width="985" height="388" alt="image" src="https://github.com/user-attachments/assets/af8c3516-9b24-4cdd-b5e8-16b12d0a9c66" />
+
+* Go to Endpoint Security: Filter for the target server (Emily or 172.16.17.49).
+* Isolate the Host: Click the Request Containment button next to that device to cut off its network access and restrict further malicious activity.
+
+<img width="1919" height="831" alt="image" src="https://github.com/user-attachments/assets/875fa3ee-7f72-4a8d-8ea9-fff2db5ffb67" />
+
+* Click **Next**
 
 ---
 
